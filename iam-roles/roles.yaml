@@ -1,0 +1,23 @@
+projectId: samplelandingproject
+state:
+  bucket: aritranagnordcloud-terraform-state
+  prefix: test/samplelandingproject
+
+groups:
+  editors:
+    description: Team members
+    roles:
+    - compute.admin
+    - storage.admin
+    members:
+    - paul@acme.lol
+    - jessica@acme.lol
+
+  owners:
+    description: Team owners
+    roles:
+    - owner
+    - resourcemanager.tagAdmin
+    members:
+    - ceo@acme.lol
+    - cto@acme.lol
