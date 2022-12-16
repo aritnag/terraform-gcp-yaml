@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "aritranagnordcloud-terraform-state"
+    bucket = "aritran-terraform-state"
     path   = "gcp/terraform.tfstate"
   }
 }
